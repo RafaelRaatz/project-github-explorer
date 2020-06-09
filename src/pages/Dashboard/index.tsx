@@ -23,7 +23,7 @@ const Dashboard: React.FC = () => {
     ): Promise<void> {
         event.preventDefault();
         if (!newRepo) {
-            setInputError('Digite o autor/nome do repositório');
+            setInputError('Digite o autor ou nome do repositório');
             return;
         }
 
